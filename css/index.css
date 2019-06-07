@@ -22,36 +22,10 @@
     flex-direction: column-reverse;
     justify-content: flex-end;
   }
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.flexcenter {
-  display: flex;
-  align-items: center;
-}
-.button {
-  color: white;
-  background: black;
-  border-radius: 1.5rem;
-  padding: 15px 34px;
-  text-align: center;
-  text-decoration: none;
-  display: inline;
-  font-size: 1.5rem;
-  padding: 1.2rem;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-.columnreverse {
-  display: flex;
-  flex-direction: column-reverse;
-  align-content: center;
+  .btn:hover {
+    color: pink;
+    background: blue;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -232,6 +206,12 @@ p {
   flex-direction: column;
   align-content: center;
 }
+.navContainer a {
+  padding: 20px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -297,14 +277,14 @@ footer {
   color: white;
   background: black;
   border-radius: 1.5rem;
-  padding: 15px 34px;
   text-align: center;
+  padding: 15px 34px;
   text-decoration: none;
   display: inline;
   font-size: 1.5rem;
   padding: 1.2rem;
 }
 .btn:hover {
-  color: black;
-  background: white;
+  color: pink;
+  background: blue;
 }

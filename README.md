@@ -50,7 +50,7 @@ Answer: Preprocessing is a tool that allows users to do more with CSS and be mor
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-Answer: My favorite concept in preprocessing is Variables and Mixins. The concept that gives me the most trouble is nesting 
+Answer: My favorite concept in preprocessing is Variables and Mixins. The concept that gives me the most trouble is parameters (I tryed to use parameters in teh assignment but it kept given me an error) 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
