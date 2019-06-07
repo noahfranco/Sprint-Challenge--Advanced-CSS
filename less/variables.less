@@ -23,4 +23,62 @@
 @btn-bg-color: #22283A;
 @border-real: #dee2e6;
 
+// Display Flex
+@flex: flex; 
+@justifycenter: center; 
+@aligncenter: center; 
+@flexstart: flex-start; 
+
+// flex-direction 
+@column: column; 
+@columnreverse: column-reverse;  
+
+// colors 
+@white: white; 
+@black: black; 
+
+
 // Mobile var
+
+
+@phone : ~"(max-width:  500px)"; 
+@media @phone {
+    
+    .intro {
+        img {
+            width: 500px; 
+
+        }
+    }
+
+    .liftoff {
+        display: flex; 
+        flex-direction: column;  
+    }
+
+    .space-images {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+
+        .sky {
+            display: none; 
+        }
+
+        .launch {
+            display: none; 
+        }
+    }
+
+    .walk {
+        display: flex; 
+        flex-direction: column-reverse; 
+        justify-content: flex-end; 
+        // width: 800px; 
+        
+    }
+
+   
+
+    
+} 
